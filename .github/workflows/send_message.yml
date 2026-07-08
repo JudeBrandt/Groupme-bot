@@ -2,7 +2,7 @@ name: GroupMe Automated Message
 
 on:
   schedule:
-    - cron: '30 23 * * *' # This sends the message every single day at 12:00 PM UTC (9:30) PM EST)
+    - cron: '0 8 * * *' # This sends the message every single day at 12:00 PM UTC (6:00) AM EST)
 
 jobs:
   send-message:
